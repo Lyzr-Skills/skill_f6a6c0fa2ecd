@@ -1,0 +1,74 @@
+{
+  "version": "1.3.0",
+  "variant": "no-scripts",
+  "github_repo": "https://ucgithub.exlservice.com/Alan345307/arb-agents",
+  "github_commit": "1300c7ab6961671cc079718faed321e18c0dd5b7",
+  "standards_origin": "GitHub shared/standards",
+  "templates_origin": "local canonical templates",
+  "resources": [
+    {
+      "id": "SKILL.md",
+      "sha256": "67eb6fdd1b97bb023d2fb5f3ffdb649bbd71326e09a523e7ef0b3f114c404f8d"
+    },
+    {
+      "id": "assets/templates/architecture-diagram-template.md",
+      "sha256": "1f9d25c737a1d0b29b210fef175c683b46ed87af6e48196342dede7cbc36f356"
+    },
+    {
+      "id": "assets/templates/aws-architecture-findings-template.md",
+      "sha256": "33d657a303eb4b480841456a1b4569d450286df0c838171d393160f9f91b7d8f"
+    },
+    {
+      "id": "assets/templates/ieee-1016-sdd-template.md",
+      "sha256": "f2f36f35bed0745b4368c725ee21a96f09d2957fa2b70ea5a67c49d7147dbf28"
+    },
+    {
+      "id": "references/aws-master-services.json",
+      "sha256": "4f53ff317e37b7adc2e5c89e23678f48c570eda7981d3ca4593f3eed7a567575"
+    },
+    {
+      "id": "references/diagram-views.md",
+      "sha256": "86389cc3916ff5d84bbecee7ccd11ba01c7c8c0067e30ba0cbf1543a4edf6da1"
+    },
+    {
+      "id": "references/document-processing.md",
+      "sha256": "dc7f26217b470fe7b8775fd43bace4fdfff6045d69b6590ef0be13c6ec3ad389"
+    },
+    {
+      "id": "references/runtime-capabilities.md",
+      "sha256": "d4a6ddbdc723e1f73743368f056cc470eaaac7e49e367f22931eecb9fd86b85f"
+    },
+    {
+      "id": "references/sdd-sections.json",
+      "sha256": "02babff1401d90da26b5b915ddf7d92f9ceb14ff7b3c7a7ce920eb2157da4f06"
+    },
+    {
+      "id": "references/source-interpretation.md",
+      "sha256": "c5a89c16565fa39474926291d5f4716f17842f25ef24fdb6b33459698cdc54a7"
+    },
+    {
+      "id": "references/standards/agentic-best-practices.md",
+      "sha256": "5da8dc627bdcaa15dd86a98ed27540783b8f030e8dd6a0ae14291956af1e4176"
+    },
+    {
+      "id": "references/standards/approved-libraries.md",
+      "sha256": "055d122a76017267b9e645c3a60409ea02310894f4d2d793e5e10f9a1d21d8ef"
+    },
+    {
+      "id": "references/standards/approved-services-aws.md",
+      "sha256": "230a0fa40431c5cb54b8f4bb392885822b07ac32d70b2deadc504d469309dc84"
+    },
+    {
+      "id": "references/standards/exl-architecture-principles.md",
+      "sha256": "3b00f497e53bb6eb9a42a9aa36f35f448153eae422db42fd12f8c7e70fcb903f"
+    },
+    {
+      "id": "references/standards/well-architected-aws.md",
+      "sha256": "af0087fbede941603402fb0e6a28bbaf0480093e8260778ca725f6d448e1a953"
+    },
+    {
+      "id": "references/technology-catalogue-upstream.md",
+      "sha256": "d72e110b5c1cb0bb35ad9e197546b97ea7ce846b80b5e05c665ce1ed4103035f"
+    }
+  ]
+}
