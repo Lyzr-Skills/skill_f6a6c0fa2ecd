@@ -1,0 +1,291 @@
+{
+ "standard": "IEEE 1016-2009 viewpoints (structure from memory; check against the standard before external use)",
+ "sections": [
+  {
+   "id": "identification",
+   "title": "Identification",
+   "required": true,
+   "diagram": false,
+   "expect": "Project name, owner, version, date, status.",
+   "hints": [
+    "identification",
+    "document control",
+    "version history",
+    "document history",
+    "change history",
+    "approval record",
+    "revision history"
+   ]
+  },
+  {
+   "id": "introduction",
+   "title": "Introduction (purpose, scope, definitions)",
+   "required": true,
+   "diagram": false,
+   "expect": "Purpose, scope and the terms the document defines.",
+   "hints": [
+    "introduction",
+    "purpose",
+    "scope",
+    "overview",
+    "summary",
+    "background",
+    "definitions",
+    "glossary"
+   ]
+  },
+  {
+   "id": "stakeholders-concerns",
+   "title": "Design stakeholders and concerns",
+   "required": true,
+   "diagram": false,
+   "expect": "Who cares about the design, what they need, and numbered requirements including non-functional ones.",
+   "hints": [
+    "stakeholder",
+    "concern",
+    "requirement",
+    "scenario",
+    "success criteria",
+    "user stor",
+    "use case",
+    "non-functional",
+    "quality attribute"
+   ]
+  },
+  {
+   "id": "context",
+   "title": "Context viewpoint",
+   "required": true,
+   "diagram": true,
+   "expect": "Context diagram: the system boundary, its users and the external systems.",
+   "hints": [
+    "context",
+    "system boundary",
+    "external system",
+    "actors"
+   ]
+  },
+  {
+   "id": "composition",
+   "title": "Composition viewpoint",
+   "required": true,
+   "diagram": true,
+   "expect": "Container diagram: the deployable parts and data stores, what each does, how they communicate (direction, protocol).",
+   "hints": [
+    "container",
+    "composition",
+    "component",
+    "building block",
+    "solution overview",
+    "logical architecture"
+   ]
+  },
+  {
+   "id": "logical",
+   "title": "Logical viewpoint",
+   "required": false,
+   "diagram": false,
+   "expect": "Logical structure of the main components, if the containers diagram is not enough.",
+   "hints": [
+    "logical view",
+    "logical architecture",
+    "logical"
+   ]
+  },
+  {
+   "id": "dependency",
+   "title": "Dependency viewpoint",
+   "required": false,
+   "diagram": false,
+   "expect": "Technologies and third-party services used, each checked against the radar or backed by an ADR.",
+   "hints": [
+    "dependenc",
+    "technical context",
+    "technology stack",
+    "technology choices",
+    "tech stack",
+    "third-party"
+   ]
+  },
+  {
+   "id": "information",
+   "title": "Information viewpoint",
+   "required": false,
+   "diagram": false,
+   "expect": "Data model, plus data class, residency and retention for every data flow.",
+   "hints": [
+    "data model",
+    "information view",
+    "data architecture",
+    "data classification",
+    "data class",
+    "entity",
+    "schema",
+    "residency",
+    "retention"
+   ]
+  },
+  {
+   "id": "patterns",
+   "title": "Patterns use viewpoint",
+   "required": false,
+   "diagram": false,
+   "expect": "Named design patterns used and where.",
+   "hints": [
+    "pattern",
+    "design pattern",
+    "architectural style"
+   ]
+  },
+  {
+   "id": "interface",
+   "title": "Interface viewpoint",
+   "required": true,
+   "diagram": false,
+   "expect": "Every interface: contract, version, protocol, who calls whom, how callers are identified.",
+   "hints": [
+    "interface",
+    "api",
+    "contract",
+    "integration",
+    "openapi",
+    "event schema",
+    "protocol"
+   ]
+  },
+  {
+   "id": "structure",
+   "title": "Structure viewpoint",
+   "required": false,
+   "diagram": false,
+   "expect": "How the code or deployment units are organised.",
+   "hints": [
+    "project structure",
+    "repository structure",
+    "code structure",
+    "module structure"
+   ]
+  },
+  {
+   "id": "interaction",
+   "title": "Interaction viewpoint",
+   "required": false,
+   "diagram": true,
+   "expect": "Sequence diagrams for the key flows.",
+   "hints": [
+    "sequence",
+    "interaction",
+    "runtime view",
+    "message flow",
+    "call flow"
+   ]
+  },
+  {
+   "id": "state-dynamics",
+   "title": "State dynamics viewpoint",
+   "required": false,
+   "diagram": true,
+   "expect": "State diagram for any long-running process, with one named owner of its status, timers and retries.",
+   "hints": [
+    "state machine",
+    "state diagram",
+    "lifecycle",
+    "state dynamics",
+    "state transition"
+   ]
+  },
+  {
+   "id": "algorithm",
+   "title": "Algorithm viewpoint",
+   "required": false,
+   "diagram": false,
+   "expect": "Non-trivial decision logic, model use or scoring, if any.",
+   "hints": [
+    "algorithm",
+    "model logic",
+    "scoring",
+    "prompt design",
+    "decision logic"
+   ]
+  },
+  {
+   "id": "resource",
+   "title": "Resource viewpoint (deployment)",
+   "required": true,
+   "diagram": true,
+   "expect": "Deployment diagram: where each container runs (account or subscription, region, network zone or cluster), trust and network boundaries, managed services.",
+   "hints": [
+    "deployment",
+    "hosting",
+    "infrastructure",
+    "network",
+    "environment",
+    "resource view",
+    "cloud account",
+    "region"
+   ]
+  },
+  {
+   "id": "overlays",
+   "title": "Design overlays (security, identity, observability)",
+   "required": false,
+   "diagram": false,
+   "expect": "Security, identity and observability design, including tracing and audit.",
+   "hints": [
+    "security",
+    "identity",
+    "authentication",
+    "authorization",
+    "observability",
+    "monitoring",
+    "logging",
+    "tracing"
+   ]
+  },
+  {
+   "id": "rationale",
+   "title": "Design rationale",
+   "required": true,
+   "diagram": false,
+   "expect": "Why each significant technology or pattern was chosen: an ADR or a stated reason, with alternatives and the cost of moving.",
+   "hints": [
+    "rationale",
+    "decision",
+    "adr",
+    "alternatives considered",
+    "trade-off",
+    "tradeoff",
+    "options considered"
+   ]
+  },
+  {
+   "id": "conformance",
+   "title": "ARB conformance and reuse",
+   "required": false,
+   "diagram": false,
+   "expect": "Which catalogue building blocks are reused, what is contributed back, and any exceptions.",
+   "hints": [
+    "conformance",
+    "compliance",
+    "reuse",
+    "catalogue",
+    "arb"
+   ]
+  },
+  {
+   "id": "open-issues",
+   "title": "Open issues",
+   "required": false,
+   "diagram": false,
+   "expect": "Open design questions, each with an owner and a date. Nothing that blocks the design may stay open.",
+   "hints": [
+    "open issue",
+    "open question",
+    "risk",
+    "assumption",
+    "to be confirmed",
+    "outstanding"
+   ]
+  }
+ ]
+}
